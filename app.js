@@ -1,8 +1,10 @@
 
 const express = require('express');
 const app = express();
+var bodyParser = require('body-parser');
 const authentication = require('./server/routes/middlewares/authentication');
 
+app.use(bodyParser.json()); // for parsing application/json
 
 // middleware that authenticates users
 app.use(authentication);
