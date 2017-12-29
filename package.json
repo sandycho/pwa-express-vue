@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
+    "express-vue": "^4.0.14",
     "pg-promise": "^7.3.2"
   }
 }
